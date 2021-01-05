@@ -54,8 +54,8 @@
                     type: 'dataURL'
                 }
                 this.output = await this.$html2canvas(el, options);
-                let htmlBlock = document.getElementsByClassName("end")[0]
-               htmlBlock.parentNode.removeChild(htmlBlock);
+               //  let htmlBlock = document.getElementsByClassName("end")[0]
+               // htmlBlock.parentNode.removeChild(htmlBlock);
             }
         },
         mounted() {
